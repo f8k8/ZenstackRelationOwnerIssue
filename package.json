@@ -1,0 +1,20 @@
+{
+  "name": "zenstackrelationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "zenstack generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.15.0",
+    "zenstack": "^1.12.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@zenstackhq/runtime": "^1.12.5"
+  }
+}
